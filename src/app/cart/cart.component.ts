@@ -46,7 +46,7 @@ removeItem(id: any){
   if(this.cartProducts.length){
     localStorage.setItem('cart',JSON.stringify(this.cartProducts));
   }else{
-    localStorage.setItem('cart',null);
+    localStorage.setItem('cart','null');
   }
 }
 payBill(){
